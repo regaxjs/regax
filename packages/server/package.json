@@ -1,0 +1,45 @@
+{
+  "name": "@regax/server",
+  "version": "0.1.30",
+  "license": "MIT",
+  "main": "lib/index",
+  "typings": "lib/index.d.ts",
+  "dependencies": {
+    "@regax/common": "^0.1.10",
+    "@regax/logger": "^0.1.6",
+    "@regax/logrotator": "^0.0.4",
+    "@regax/protocol": "^0.1.4",
+    "@regax/rpc": "^0.1.18",
+    "@regax/scheduler": "^0.0.4",
+    "@types/commander": "^2.12.2",
+    "@types/ws": "^6.0.3",
+    "address": "^1.1.2",
+    "await-event": "^2.1.0",
+    "commander": "^4.1.0",
+    "debug": "^4.1.1",
+    "inversify": "^5.0.1",
+    "ps-tree": "^1.2.0",
+    "reflect-metadata": "^0.1.13",
+    "ws": "^7.2.0"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "devDependencies": {
+    "@regax/client-websocket": "^0.1.15",
+    "@regax/client-udpsocket": "^0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/regaxjs/regax.git"
+  },
+  "homepage": "https://github.com/regaxjs/regax",
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "regax clean",
+    "build": "regax build",
+    "watch": "regax watch",
+    "test": "regax test"
+  }
+}

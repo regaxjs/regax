@@ -1,0 +1,6 @@
+--reporter spec
+--require source-map-support/register
+--require ts-node/register
+--recursive
+--watch-extensions ts
+--timeout 5000

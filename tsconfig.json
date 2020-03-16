@@ -1,0 +1,22 @@
+{
+  "extends": "./configs/base.tsconfig",
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "baseUrl": ".",
+    "paths": {
+      "@regax/common": "packages/common/src",
+      "@regax/logger": "packages/logger/src",
+      "@regax/protocol": "packages/protocol/src/protocol",
+      "@regax/server": "packages/server/src",
+      "@regax/client-websocket": "packages/client-websocket/src",
+      "@regax/client-udpsocket": "packages/client-udpsocket/src",
+      "@regax/rpc": "packages/rpc/src",
+      "@regax/logrotator": "packages/logrotator/src",
+      "@regax/scheduler": "packages/scheduler/src"
+    }
+  },
+  "include": [
+    "dev-packages/*/src",
+    "packages/*/src"
+  ]
+}

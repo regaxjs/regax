@@ -1,0 +1,22 @@
+{
+  "name": "@regax/protocol",
+  "version": "0.1.4",
+  "license": "MIT",
+  "main": "lib/protocol.js",
+  "typings": "lib/protocol.d.ts",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/regaxjs/regax.git"
+  },
+  "homepage": "https://github.com/regaxjs/regax",
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "regax clean",
+    "build": "regax build",
+    "watch": "regax watch",
+    "test": "regax test"
+  }
+}

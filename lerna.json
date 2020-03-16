@@ -1,0 +1,18 @@
+{
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*",
+    "dev-packages/*",
+    "example-packages/*"
+  ],
+  "command": {
+    "run": {
+      "stream": true
+    },
+    "publish": {
+      "registry": "https://registry.npmjs.org/"
+    }
+  }
+}
