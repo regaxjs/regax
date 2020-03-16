@@ -1,6 +1,6 @@
 {
   "name": "@regax/egg-regax",
-  "version": "0.1.26",
+  "version": "0.1.27",
   "description": "regax for egg plugin",
   "license": "MIT",
   "main": "lib/index",
@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/regaxjs/regax",
   "dependencies": {
-    "@regax/common": "^0.1.10",
-    "@regax/rpc": "^0.1.18",
-    "@regax/server": "^0.1.30"
+    "@regax/common": "^0.1.11",
+    "@regax/rpc": "^0.1.19",
+    "@regax/server": "^0.1.31"
   },
   "scripts": {
     "prepare": "yarn run clean && yarn run build",

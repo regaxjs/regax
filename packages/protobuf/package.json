@@ -1,6 +1,6 @@
 {
   "name": "@regax/protobuf",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "main": "lib/protobuf.js",
   "typings": "lib/protobuf.d.ts",

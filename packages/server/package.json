@@ -1,16 +1,16 @@
 {
   "name": "@regax/server",
-  "version": "0.1.30",
+  "version": "0.1.31",
   "license": "MIT",
   "main": "lib/index",
   "typings": "lib/index.d.ts",
   "dependencies": {
-    "@regax/common": "^0.1.10",
-    "@regax/logger": "^0.1.6",
-    "@regax/logrotator": "^0.0.4",
-    "@regax/protocol": "^0.1.4",
-    "@regax/rpc": "^0.1.18",
-    "@regax/scheduler": "^0.0.4",
+    "@regax/common": "^0.1.11",
+    "@regax/logger": "^0.1.7",
+    "@regax/logrotator": "^0.0.5",
+    "@regax/protocol": "^0.1.5",
+    "@regax/rpc": "^0.1.19",
+    "@regax/scheduler": "^0.0.5",
     "@types/commander": "^2.12.2",
     "@types/ws": "^6.0.3",
     "address": "^1.1.2",
@@ -27,8 +27,8 @@
     "bin"
   ],
   "devDependencies": {
-    "@regax/client-websocket": "^0.1.15",
-    "@regax/client-udpsocket": "^0.0.1"
+    "@regax/client-udpsocket": "^0.0.2",
+    "@regax/client-websocket": "^0.1.16"
   },
   "repository": {
     "type": "git",

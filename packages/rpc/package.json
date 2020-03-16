@@ -1,12 +1,12 @@
 {
   "name": "@regax/rpc",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "license": "MIT",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "dependencies": {
-    "@regax/common": "^0.1.10",
-    "@regax/logger": "^0.1.6",
+    "@regax/common": "^0.1.11",
+    "@regax/logger": "^0.1.7",
     "@types/crc": "^3.4.0",
     "@types/detect-port": "^1.1.0",
     "@types/node-uuid": "^0.0.28",

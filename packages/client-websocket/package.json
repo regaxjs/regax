@@ -1,12 +1,12 @@
 {
   "name": "@regax/client-websocket",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "license": "MIT",
   "main": "lib/index",
   "typings": "lib/index.d.ts",
   "dependencies": {
-    "@regax/common": "^0.1.10",
-    "@regax/protocol": "^0.1.4"
+    "@regax/common": "^0.1.11",
+    "@regax/protocol": "^0.1.5"
   },
   "files": [
     "lib"

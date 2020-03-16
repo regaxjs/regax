@@ -1,6 +1,6 @@
 {
   "name": "@regax/protocol",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "main": "lib/protocol.js",
   "typings": "lib/protocol.d.ts",

@@ -1,11 +1,11 @@
 {
   "private": true,
   "name": "@regax/example-chat",
-  "version": "0.1.24",
+  "version": "0.1.25",
   "license": "MIT",
   "dependencies": {
-    "@regax/client-websocket": "^0.1.15",
-    "@regax/server": "^0.1.30",
+    "@regax/client-websocket": "^0.1.16",
+    "@regax/server": "^0.1.31",
     "crc": "^3.8.0",
     "node-uuid": "^1.4.8",
     "utility": "^1.16.3",
