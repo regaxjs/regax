@@ -6,10 +6,10 @@ Regax is a Multiplayer Game Engine for Node.js.
 
 ```shell
 $ tnpm i yarn -g
-$ ayarn
-$ ayarn build
-$ ayarn watch # watch files changed
-$ ayarn test # run tests
+$ yarn
+$ yarn build
+$ yarn watch # watch files changed
+$ yarn test # run tests
 ```
 
 ## Docs

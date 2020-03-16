@@ -34,7 +34,7 @@ export class RegaxLogger extends Logger<RegaxLoggerOpts> {
     const RegaxFileTransport = this.options.buffer === true ? FileBufferTransport : FileTransport
 
     const fileTransport = new RegaxFileTransport({
-      file: this.options.file,
+      file: this.options.file!,
       level: this.options.level,
       encoding: this.options.encoding,
       formatter: this.options.formatter,
@@ -47,7 +47,7 @@ export class RegaxLogger extends Logger<RegaxLoggerOpts> {
 
     if (this.options.jsonFile) {
       const jsonFileTransport = new RegaxFileTransport({
-        file: this.options.jsonFile,
+        file: this.options.jsonFile!,
         level: this.options.level,
         encoding: this.options.encoding,
         // @ts-ignore
