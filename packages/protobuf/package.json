@@ -1,0 +1,22 @@
+{
+  "name": "@regax/protobuf",
+  "version": "0.1.5",
+  "license": "MIT",
+  "main": "lib/protobuf.js",
+  "typings": "lib/protobuf.d.ts",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/regaxjs/regax.git"
+  },
+  "homepage": "https://github.com/regaxjs/regax",
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "regax clean",
+    "build": "regax build",
+    "watch": "regax watch",
+    "test": "regax test"
+  }
+}

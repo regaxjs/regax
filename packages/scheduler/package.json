@@ -1,0 +1,32 @@
+{
+  "name": "@regax/scheduler",
+  "version": "0.0.5",
+  "license": "MIT",
+  "main": "lib/index",
+  "typings": "lib/index.d.ts",
+  "regaxPlugin": {
+    "dir": "lib"
+  },
+  "dependencies": {
+    "@regax/common": "^0.1.11",
+    "@regax/logger": "^0.1.7"
+  },
+  "peerDependencies": {
+    "@regax/server": "^0.1.21"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/regaxjs/regax.git"
+  },
+  "homepage": "https://github.com/regaxjs/regax",
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "regax clean",
+    "build": "regax build",
+    "watch": "regax watch",
+    "test": "regax test"
+  }
+}

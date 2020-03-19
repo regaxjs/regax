@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "@regax/cli",
+  "version": "0.1.4",
+  "license": "MIT",
+  "description": "NPM scripts for Regax packages.",
+  "files": [
+    ""
+  ],
+  "bin": {
+    "regax": "regax"
+  },
+  "scripts": {
+    "ext:clean": "regax compile:clean && regax test:clean",
+    "ext:build": "concurrently -n compile,lint -c blue,green \"regax compile\" \"regax lint\"",
+    "ext:compile": "tsc -p compile.tsconfig.json",
+    "ext:compile:clean": "rimraf lib",
+    "ext:lint": "tslint --fix -c ../../configs/build.tslint.json --project compile.tsconfig.json",
+    "ext:watch": "tsc -w -p compile.tsconfig.json",
+    "ext:test": "cross-env NODE_ENV=unittest nyc mocha --opts ../../configs/mocha.opts \"./src/**/*.*spec.ts\"",
+    "ext:test:watch": "cross-env NODE_ENV=unittest mocha -w --opts ../../configs/mocha.opts \"./src/**/*.*spec.ts\"",
+    "ext:test:clean": "rimraf .nyc_output && rimraf coverage"
+  }
+}
