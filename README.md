@@ -12,6 +12,7 @@ $ yarn watch # watch files changed
 $ yarn test # run tests
 ```
 
-## Docs
+## About
 
 - [RoadMap](docs/RoadMap.md)
+- [Demo Chat](https://github.com/regaxjs/demo-chat)
